@@ -13,7 +13,7 @@ export SENDGRID_API_KEY='SG.F--...Y'
 ```
 ### Run at linux terminal every 5 minutes
 ```
-x=1; while [ $x -le $x ]; do echo $x;python3 web-chk.py; (( x++ ));sleep 300; done
+x=1; while true; do echo $x;python3 web-chk.py; (( x++ ));sleep 300; done
 ```
 
 ## Known issues:
