@@ -63,7 +63,7 @@ if Notify== True:
     sg = sendgrid.SendGridAPIClient(api_key)
     from_email = Email(email_sender) #Verify your email via Sendgrid before sending your first email
     to_email = To(email_sender)
-    #doesn't support multiple recepians
+    #doesn't support multiple recipiens
     subject = "URGENT: CELPIP Website is up"
     content = Content("text/plain", "Verified by Python")
     mail = Mail(from_email, to_email, subject, content)
