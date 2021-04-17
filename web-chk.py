@@ -87,7 +87,7 @@ if Notify== True:
     sg = sendgrid.SendGridAPIClient(api_key=os.environ.get('SENDGRID_API_KEY'))
     from_email = Email(email_sender) #Verify your email via Sendgrid before sending your first email
     to_email = To(email_sender)
-    #doesn't support multiple recepians
+    #doesn't support multiple recipients
     subject = "TEST Website is up"
     content = Content("text/plain", "Verified by Python")
     mail = Mail(from_email, to_email, subject, content)
