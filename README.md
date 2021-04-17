@@ -26,5 +26,5 @@ x=1; while true; do echo $x;python3 web-chk.py; (( x++ ));sleep 300; done
 refer to the bash-chk-web.sh file
 
 ## Known issues:
-* SendGrid doesn't support multiple recepians in the current Python module
+* SendGrid doesn't support multiple recipiens in the current Python module
 * It can't send any email if I make the sendgrid api call as a function in Python3
