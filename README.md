@@ -20,7 +20,7 @@ x=1; while true; do echo $x;python3 web-chk.py; (( x++ ));sleep 300; done
 ## Deploy to GCP Cloud Function
 1. Create Function with 2 variables: SENDGRID_API_KEY SENDGRID_EMAIL_ADDRESS
 2. copy the code from file gcp-function-web-chk.py
-3. Create Scheduler => pub/sub */5 * * * * to trigger the function
+3. Create Scheduler => pub/sub `*/5 * * * *` to trigger the function
 
 ## Simple version as bash script
 refer to the bash-chk-web.sh file
