@@ -22,6 +22,9 @@ x=1; while true; do echo $x;python3 web-chk.py; (( x++ ));sleep 300; done
 2. copy the code from file gcp-function-web-chk.py
 3. Create Scheduler => pub/sub */5 * * * * to trigger the function
 
+## Simple version as bash script
+refer to the bash-chk-web.sh file
+
 ## Known issues:
 * SendGrid doesn't support multiple recepians in the current Python module
 * It can't send any email if I make the sendgrid api call as a function in Python3
