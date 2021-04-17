@@ -1,5 +1,5 @@
 # web-chk
-Python script to check if websites are up, send email if down/up
+Python/bash script to check if websites are up every 5minutes, send email if down/up.
 
 ### Follow the details from the official website for how to send email by SendGrid
 https://app.sendgrid.com/guide/integrate/langs/python
